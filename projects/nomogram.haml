@@ -1,0 +1,77 @@
+%head
+	%title claire tuna // newmograms- interactive nomograms for web
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "http://fonts.googleapis.com/css?family=Roboto:400,100|Slabo+27px|Roboto+Slab:400,300,100' rel='stylesheet"}
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	%script{:src=>"../assets/javascripts/jssor.slider.mini.js"}
+
+	%div.grid-container
+		.grid-85.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 claire tuna
+					%h2 human centered design + rapid prototyping
+			.line
+
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name newmograms
+				
+				
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						university of california, berkeley computer science 294-10: data visualization fall 2013 assignment: 
+						%br
+						address a concrete visualization problem and propose a novel, creative solution
+
+
+				%div.section
+					.title.grid-33 topic
+
+					.description.prefix-33 We aimed to create a visualization tool using d3 that automatically constructs an interactive nomogram from a 3-parameter function. The tool would require user input of a function and the ranges of the variables of interest. Our tool leverages the power of direct manipulation to support kinesthetic nomogram interaction, such as dragging a line, while also using the advantages of a machine (for example, computing the exact values of the third point if it doesn't lie exactly on a tick mark, so that the user need not count tick marks/read by eye). We are also interested in visualizing changes in values between queries to highlight the interplay between variables. 
+
+				%div.section
+					.title.grid-33 demo
+
+					%a.link{:href => "./nomogram/demo.html"} 
+						demo of interactive nomograms for Body Mass Index (BMI), a second order equation and body surface area (BSA)
+
+				%div.section
+					.title.grid-33 paper
+
+					%a.link{:href => "https://halckemy.s3.amazonaws.com/uploads/document/file/1792/paper-submit.pdf"} 
+						Newmograms: Authoring Interactive Nomograms for the Web
+
+				%div.section
+					.title.grid-33 code
+
+					%a.link{:href => "https://github.com/ctuna/nomograms"} 
+						nomograms github repository 
+
+				%div.section
+					.title.grid-33 collaborators
+
+					.description.prefix-33 Warren He 
+
+				%img.project-photo{:src =>  "../assets/images/nomogram/screenshot.png"}
+				.caption#last Above is the interactive nomogram we generated for BMI. The input given shows that if a person is 63 inches tall and weighs 109 pounds, his/her BMI is 19.28

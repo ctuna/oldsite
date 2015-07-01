@@ -1,0 +1,59 @@
+%head
+	%title claire tuna // android apps 
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "http://fonts.googleapis.com/css?family=Roboto:400,100|Slabo+27px|Roboto+Slab:400,300,100' rel='stylesheet"}
+
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	%script{:src=>"../assets/javascripts/jssor.slider.mini.js"}
+
+	%div.grid-container
+		.grid-85.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 claire tuna
+					%h2 human centered design + rapid prototyping
+			.line
+
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name android applications
+				
+				
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						university of california, berkeley CS 160 user interface design
+
+
+				%div.section
+					.title.grid-33 classwork
+
+					.description.prefix-33 
+						During Spring 2013 Semester, I learned how to program mobile applications using the Android SDK. The assignments featured here are a tip calculator, a BART trip planner and a finger painting program. For all three applications, my design goals were to use direct manipulation and always maintain visibility of system status. 
+
+				%img.project-photo{:src =>  "../assets/images/apps/slider1.png"}
+				.caption application for splitting the bill and calculating tips at a restaurant 
+				%img.project-photo{:src =>  "../assets/images/apps/slider2.png"}
+				.caption finger drawing application, selecting current brush 
+				%img.project-photo{:src =>  "../assets/images/apps/slider3.png"}
+				.caption#last BART planning application with draggable pins and instant fare calculation / train times
+

@@ -1,0 +1,67 @@
+%head
+	%title claire tuna // distractions in juniper 
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%div.grid-container
+		.grid-95.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 Claire Tuna
+					%h2 human centered design + rapid prototyping
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name cutting board in juniper
+				
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						An Oakland resident was giving away wood from his 60-year-old juniper tree via craigslist.
+
+
+				%div.section
+					.title.grid-33 objective
+
+					.description.prefix-33 With previous fabrication work using the laser cutter, I was limited to using very specific types of wood (i.e. sheets, no thicker than 1/4 inch). I wanted to expand my material domain and open myself to real wood-- wood without tidy geometry, no two pieces identical. 
+
+
+				%div.section
+					.title.grid-33 process
+
+					.description.prefix-33 
+						1) cut the log into cross sections using a bowsaw
+						%br
+						2) remove the bark using a miniture crowbar
+						%br
+						3) plane the cross sections using a hand planar
+						%br
+						4) sand the board in increments from 50 grit to 600 grit
+						%br
+						5) finish the board in mineral oil 
+
+				%img{:src =>  "../assets/images/cuttingboard/thumbnail.png"}
+				.caption#last cutting board with cheese and crackers
+
+			
+			
+
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	  

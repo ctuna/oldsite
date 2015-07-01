@@ -1,0 +1,83 @@
+%head
+	%title claire tuna // bung 
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "http://fonts.googleapis.com/css?family=Roboto:400,100|Slabo+27px|Roboto+Slab:400,300,100' rel='stylesheet"}
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	%script{:src=>"../assets/javascripts/jssor.slider.mini.js"}
+
+	%div.grid-container
+		.grid-85.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 claire tuna
+					%h2 human centered design + rapid prototyping
+			.line
+			
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name b&uumlng
+				
+				
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						university of california, berkeley computer science 294-84: interactive device design and fabrication fall 2013 assignment: 
+						%br
+						design an internet-enabled interactive device that solves a real problem for a concrete user group. 
+
+
+				%div.section
+					.title.grid-33 user group
+
+					.description.prefix-33 employees at micro distilleries and wineries 
+
+
+				%div.section
+					.title.grid-33 problem
+
+					.description.prefix-33 through a contextual inquiry at St. George Spirits, a distillery in Alameda, we found that distillery employees at a small scale spend over 40 hours a quarter measuring the volume of spirits in each barrel by hand using a dipstick. 
+
+				%div.section
+					.title.grid-33 solution
+
+					.description.prefix-33 We designed a prototype that, when placed in the bunghole of a barrel, automatically measures the distance to the surface of the liquid using ultrasonic and uploads it to a server. Through a website, the user can set measurement intervals and monitor readings.
+					
+				%div.section
+					.title.grid-33 press
+
+					%a.link{:href => "http://bit.ly/berkeley_engineering"} 
+						Berkeley Engineering Magazine
+
+				%div.section
+					.title.grid-33 collaborators
+
+					.description.prefix-33 Justin Kay,  Carson Schultz, Matthew Visco
+
+				%img.project-photo{:src =>  "../assets/images/bung/slider1.png"}
+				.caption final prototype of bung in ABS
+				%img.project-photo{:src =>  "../assets/images/bung/slider2.jpg"}
+				.caption observing the workflow at a local distillery
+				%img.project-photo{:src =>  "../assets/images/bung/slider3.jpg"}
+				.caption the bung in situ
+				%img.project-photo{:src =>  "../assets/images/bung/slider4.jpg"}
+				.caption#last lineup: bung, bung, bung, b&uumlng
+

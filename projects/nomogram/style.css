@@ -1,0 +1,86 @@
+body{
+	padding:20px;
+	font-family:Helvetica, sans-serif;
+	position: relative;
+}
+.axis  {
+  	fill: none;
+	stroke-width:4px;
+  	shape-rendering: crispEdges;
+	z-index:0;
+  	width: 20px; }
+line{
+		z-index:0;
+}
+
+#equation{
+	font-size:200%;
+	color: #4480d2;
+}
+.axis text {  
+	z-index:1;
+    font-size: 50px;
+}
+
+.axisControl{
+	opacity:1;
+
+	stroke:#c0c1c1;
+	background:black;
+	fill: black;
+	font-weight:bold;
+	font-size: 240%;
+}
+polygon {
+	fill: #4480d2;
+	z-index:10;
+	opacity:0.6;
+	
+}
+.axis line{
+	fill: none;
+	stroke :black;
+	shape-rendering: crispEdges;
+	width: 20px; 
+
+	}
+#nomoline{
+	opacity:.6;
+	 z-index:5;
+	 width: 5px;
+	stroke: #4480d2;
+}
+.axisType{
+	font-size: 180%;
+	fill: #4480d2;
+}
+input{
+  width: 30px;
+}
+input#buttonExecute{
+  width: 60px;
+}
+select#selector{
+	width: 200px;
+	line-height:700px;
+	font-size:80px;
+	margin-right:20px;
+
+}
+
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px; }
+
+*::selection {
+    background:transparent;
+}
+
+*::-moz-selection {
+    background:transparent;
+}
+
+*::-webkit-selection {
+    background:transparent;
+}

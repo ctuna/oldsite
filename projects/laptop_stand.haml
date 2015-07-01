@@ -1,0 +1,129 @@
+%head
+	%title claire tuna // portable laptop stand
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "http://fonts.googleapis.com/css?family=Roboto:400,100|Slabo+27px|Roboto+Slab:400,300,100' rel='stylesheet"}
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	%script{:src=>"../assets/javascripts/jssor.slider.mini.js"}
+	
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%div.grid-container
+		.grid-85.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 claire tuna
+					%h2 human centered design + rapid prototyping
+			.line
+
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name portable laptop stand
+				
+				%img.bottom20{:src => "../assets/images/laptopstand/assembly_diagram.png"}
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						prototype engineering internship at Kinoma
+
+
+				%div.section
+					.title.grid-33 target user group
+
+					.description.prefix-33 Kinoma employees working at trade shows 
+
+				%div.section
+					.title.grid-33 secondary user groups
+
+					.description.prefix-33 laptop users who want their screen at eye level for various reasons (e.g. workstation setup, watching movies)
+
+				%div.section
+					.title.grid-33 problem
+
+					.description.prefix-33 
+						At trade shows and other conferences, the team showcases software as well as hardware. For displaying the IDE Kinoma Studio, we wanted a stand that would elevate the laptop to make it easy to see and more polished than a laptop on the table. The stand needed to hold the laptop securely and be able to pack flat for travel. 
+				%div.section
+					.title.grid-33 solution
+
+					.description.prefix-33 I designed 5-piece, flat-pack acrylic laptop stand. 
+				%div.section
+					.title.grid-33 insights
+
+					.description.prefix-33 
+						With early designs, I listened to qualitative feedback from test subjects and observed the following problems and discomforts:
+						%br
+						%span.issue-title BRITTLENESS// 
+						the crossbars had a weak point where they were likely to break
+						%br
+						%span.issue-title DANGER TO SELF// 
+						the pieces had right angles that made it possible to hurt yourself during assembly
+						%br
+						%span.issue-title DANGER TO LAPTOP// 
+						users feared that the acrylic would scratch their laptops
+						%br
+						%span.issue-title FLIMSINESS// 
+						users did not want to place their laptops on something they thought was flimsy
+						%br
+						%span.issue-title "THE MARK"// 
+						when one user opened his laptop with one hand, it slid off the front of the stand
+				%div.section
+					.title.grid-33 design decisions 
+
+					.description.prefix-33 
+						With feedback in mind, the following modifications were made
+						%br
+						%span.solution-title BRITTLENESS//  
+						added relief cuts in the crossbars to distribute the stress
+						%br
+						%span.solution-title DANGER TO SELF// 
+						radiused the edges 
+						%br
+						%span.solution-title DANGER TO LAPTOP// 
+						added felt to the hard edges of the stand
+						%br
+						%span.solution-title FLIMSINESS// 
+						added a snap-fit mechanism to allow the two pieces to fit together snugly regardless of exact material thickness. 
+						%br
+						%span.solution-title "THE MARK"// 
+						added little ridges to keep the bottom of the laptop from rolling off of the stand. 
+				%div.section
+					.title.grid-33 documentation
+
+					%a.link{:href => "http://bit.ly/ctuna_laptopstand"} 
+						files on thingiverse
+				%div.section
+					.title.grid-33 collaborators 
+
+					.description.prefix-33 
+						many members of the CITRIS Invention lab tried versions of the stand and offered feedback. Engineering contributions by Kevin Tian, Chris Myers. Physical brainstorming help from Oscar Segovia, Mark Oehlberg.  
+
+				%img.project-photo{:src =>  "../assets/images/laptopstand/slider1.jpg"}
+				.caption early prototype in cardboard and wood
+				%img.project-photo{:src =>  "../assets/images/laptopstand/slider2.jpg"}
+				.caption final prototype in matte black acrylic
+				%img.project-photo{:src =>  "../assets/images/laptopstand/slider3.jpg"}
+				.caption matte black components ready to be packed flat 
+				%img.project-photo{:src =>  "../assets/images/laptopstand/slider4.jpg"}
+				.caption#last user testing final prototype in white as part of a workstation
+
+
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	  

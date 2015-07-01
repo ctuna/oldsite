@@ -1,0 +1,15 @@
+make drag in front (z order ticks in the back)
+extract value from current point
+scale ratio 
+1: calculate current
+2: display current
+wishes: label placement with simulated annealing? 
+concerns: label readability
+don't want to occlude labels with pointer
+html intersection of line and path?
+union of the points in the line and path. can we get these
+
+make a function ("getvalue" of point)
+add a drag point on the svg for bigger and smaller version
+
+do a sass file to set 3 colors

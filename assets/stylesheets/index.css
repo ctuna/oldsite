@@ -1,0 +1,134 @@
+body {
+  font-family: "Roboto Slab", "Helvetica", sans-serif;
+  padding-left: 5px;
+  background-color: #fcfcfc;
+     }
+
+a {
+  text-decoration: none; }
+
+.banner {
+  cursor: pointer; }
+
+h1 {
+  color: black;
+  font-size: 300%;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-weight: normal; }
+
+h2 {
+  color: #4D4D4D;
+  font-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-weight: lighter; }
+
+.grid-33 {
+  padding-right: 30px;
+  position: relative; }
+
+.grid-33:hover .thumbnail {
+  opacity: .8; }
+
+.grid-33:hover h3 {
+  opacity: .9; }
+
+.thumbnail {
+  font-size: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  text-align: center; 
+}
+
+img {
+ 
+  max-width: 100%; }
+
+h3 {
+  opacity: .3;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-size: 200%;
+  margin-bottom: 0px;
+  color: black;
+  font-weight: bold; }
+
+.grid-parent {
+  float:none;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:100px;}
+
+.section {
+  margin-bottom: 20px; }
+
+.title {
+  color: black;
+  font-size: 100%;
+  font-weight: light; }
+
+.description {
+  font-family: "Roboto";
+  color: grey;
+  font-size: 85%;
+  font-weight: light; }
+
+.project-title {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 120%; }
+
+.caption {
+  color: grey;
+  padding-top: 5px;
+  font-size: 80%; 
+  margin-bottom: 20px;
+}
+
+.project-photo{
+
+  margin-top:20px;
+}
+
+#last {
+  margin-bottom: 100px; }
+
+.issue-title {
+  color: #a26761; }
+
+.solution-title {
+  color: #61a264;
+  text-decoration: line-through; }
+
+.project-name {
+  color: #abb4a9; }
+
+.bottom20 {
+  margin-bottom: 20px; }
+
+.link {
+  color: blue;
+  font-size: 85%;
+  font-weight: light; }
+
+.slideshow_caption {
+  font-family: "Helvetica", sans-serif;
+  position: absolute;
+  width: 600px;
+  height: 12px;
+  top: 555;
+  left: 10px;
+  text-align: left;
+  font-size: 90%;
+  color: #999999; }
+
+.line {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
+  margin-right: 30px;
+
+}
+/*# sourceMappingURL=index.css.map */

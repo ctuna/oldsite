@@ -1,0 +1,75 @@
+%head
+	%title claire tuna // hobs: head orientation based selection 
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/unsemantic-grid-responsive.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "../assets/stylesheets/index.css"}
+	%link{:rel => :stylesheet, :type => :"text/css", :href => "http://fonts.googleapis.com/css?family=Roboto:400,100|Slabo+27px|Roboto+Slab:400,300,100' rel='stylesheet"}
+	:plain
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-60218606-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+%body
+
+	%script{:src=> "../assets/javascripts/jquery-1.9.1.min.js"}
+	%script{:src=>"../assets/javascripts/demo.js"}
+	%script{:src=>"../assets/javascripts/jssor.slider.mini.js"}
+
+	%div.grid-container
+		.grid-85.grid-parent
+			
+			%a{:href => "../index.html"}
+				.banner.grid-100.mobile-grid-100
+					%h1 claire tuna
+					%h2 human centered design + rapid prototyping
+			.line
+
+			.grid-66
+				.span.project-title
+					project // 
+					%span.project-name hobs: head orientation based selection 
+				
+				
+
+				%div.section
+					.title.grid-33 occasion/context 
+
+					.description.prefix-33 
+						university of california, berkeley institute of design research project 
+
+
+				%div.section
+					.title.grid-33 abstract
+
+					.description.prefix-33 
+						Emerging head-worn computing devices can enable interactions with smart objects in physical spaces. We present the iterative design and evaluation of HOBS, a Head Orientation Based Selection technique for interacting with these devices at a distance. We augment a commercial wearable device, Google Glass, with an infrared (IR) emitter to select targets equipped with IR receivers. Our first design shows that a naive IR implementation can outperform list selection, but has poor performance when refinement between multiple targets is needed. A second design uses IR intensity measurement at targets to improve refinement. To address the lack of natural mapping of on-screen target lists to spatial target location, our third design infers a spatial data structure of the targets enabling a natural head-motion based disambiguation. Finally, we demonstrate a universal remote control application using HOBS and report qualitative user impressions.
+
+				%div.section
+					.title.grid-33 demo
+
+					%a.link{:href => "https://www.youtube.com/watch?v=UOfIj5nHHQ0"} 
+						Controlling Physical Appliances Through Head-Worn Infrared Targeting
+
+				%div.section
+					.title.grid-33 paper
+
+					%a.link{:href => "http://www.eecs.berkeley.edu/~benzh/glass/images/hobs-sui14-paper.pdf"} 
+						HOBS: Head Orientation-Based Selection in Physical Spaces, SUI 2014
+
+				%div.section
+					.title.grid-33 collaborators
+
+					.description.prefix-33 Ben Zhang, Yu-Hsiang Chen, Achal Dave, Yang Li , Edward Lee , Bjorn Hartmann 
+
+				%img.project-photo{:src =>  "../assets/images/hobs/slider3.jpg"}
+				.caption using HOBS to control a tv
+				%img.project-photo{:src =>  "../assets/images/hobs/slider1.jpg"}
+				.caption hardware setup: google glass augmented with custom hardware
+				%img.project-photo{:src =>  "../assets/images/hobs/slider2.png"}
+				.caption#last illustration of disambiguation between two nearby devices by moving the head slightly. 
+
